@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int idade1, idade2, idade3;
+    int total;
+
+    printf("Informe sua idade: ");
+    scanf("%d", &idade1);
+
+    printf("Informe sua idade: ");
+    scanf("%d", &idade2);
+
+    printf("Informe sua idade: ");
+    scanf("%d", &idade3);
+
+    printf("As idades informadas sao:%d\nidade 1= %d\nidade 2= %d\nidade 3= ")
+    total = idade1 + idade2 + idade3
+    printf("A soma das idades resultam em: %d\n", total);
+}
+    
