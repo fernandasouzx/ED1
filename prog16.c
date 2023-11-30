@@ -3,7 +3,7 @@
  * Estrutura de Dados
  * Prof Ivairton M. Santos
  * Aluna = Fernanda Lima de Souza
- * Exercicio 16 - exemplo de codigo que manipula registro
+ * Exercicio 16 - exemplo de codigo que manipula REGISTRO
  */
 
 #include <stdio.h>
@@ -50,6 +50,6 @@ int main(){
 
      printf("Sua reta é composta pelas extremidades:\n");
      printf ("{ (%d,%d) , (%d, %d)}\n" reta.p1.x, reta.p1.y, reta.p2.x, reta.p2.y);
-     
+
     return 1;
 }
