@@ -20,12 +20,15 @@ int main(){
     valor2 = 4;
 
     total = func_soma(valor1, valor2);
+    printf("Valor1 = %d\nValor2 = %d\n", valor1, valor2);
     printf("Total = %d\n", total);
     return 1;
 }
 // Funcao de soma
 int func_soma(int v1, int v2){
     int soma;
+    //v1 = v1*2;
+    //v2 = v2*2;
     soma = v1 + v2;
     return soma;
 
