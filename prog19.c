@@ -22,5 +22,11 @@ int main(){
 
     // Acessa a posicao de memoria do ponteiro
     printf("Acesso a posicao de memoria de pt_valor = %d\n", *pt_valor);
+
+    valor = 100;
+    printf("2° acesso a posicao de memoria de pt_valor = %d\n", *pt_valor);
+
+    *pt_valor = 500;
+    printf("Novo valor de VALOR = %d\n", valor);
     return 1;
 }
