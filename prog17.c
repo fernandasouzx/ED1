@@ -31,8 +31,8 @@ int main(){
     aluno2.RA = 2222;
     aluno2.tipo = pos_graduacao;
 
-    printf("Aluno:\n\tNome:%s; RA%d; Tipo%d\n", aluno1.nome, aluno1.RA, aluno1.tipo);
-    printf("Aluno:\n\tNome:%s; RA%d; Tipo%d\n", aluno2.nome, aluno2.RA, aluno2.tipo);
+    printf("Aluno:\n\tNome:%s; RA:%d; Tipo:%d\n", aluno1.nome, aluno1.RA, aluno1.tipo);
+    printf("Aluno:\n\tNome:%s; RA:%d; Tipo:%d\n", aluno2.nome, aluno2.RA, aluno2.tipo);
 
     return 1;
 }
