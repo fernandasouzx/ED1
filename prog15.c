@@ -29,7 +29,7 @@ int main(){
 
     strcpy(prod1.nome,"Arroz");
     prod1.codigo = 100;
-    prod1,preco = 20.0;
+    prod1.preco = 20.0;
 
     strcpy(prod2.nome, "Feijao");
     prod2.codigo= 200;
