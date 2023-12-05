@@ -1,0 +1,49 @@
+/***
+ * UFMT -Ciencia da Computacao
+ * Estrutura de Dados
+ * Prof Ivairton M. Santos
+ * Aluna: Fernanda Lima de Souza
+ * Exercicio 20 - exemplo de PONTEIRO
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+// Prototipo das funcoes
+
+int fun_soma_copia(int, int);
+int fun_soma_ref(int*, int*);
+
+int main(){
+    int valor1, valor2, total;
+
+    valor1 = 2;
+    valor2 = 4;
+
+    //total = fun_soma_copia(valor1, valor2);
+    total = fun_soma_ref(&valor1, &valor2);
+
+    printf("Valor1 = %d\nValor2 = %d\n", valor1, valor2);
+    printf("Total = %d\n", total);
+    return 1;
+}
+// Funcao de soma
+int fun_soma_copia(int v1, int v2){
+    int soma;
+    //v1 = v1*2;
+    //v2 = v2*2;
+    soma = v1 + v2;
+    return soma;
+
+}
+
+//funcao de soma com parametro passados por referencia
+
+int fun_soma_ref(int *v1, int *v2){
+    int soma;
+    *v1 = *v1 * 2;
+    *v2 = *v2 * 2;
+    soma = *v1+*v2;
+    return soma;
+}
