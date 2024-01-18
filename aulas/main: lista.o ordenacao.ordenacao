@@ -1,0 +1,11 @@
+main: lista.o ordenacao.ordenacao
+    gcc main.c lista.o ordenacao.o -o prog -I
+
+lista.o: lista.c
+    gcc -c lista.c
+
+ordenação.o ordenacao.c
+    gcc -c ordenacao.c
+
+clean:
+    rm *.o prog
