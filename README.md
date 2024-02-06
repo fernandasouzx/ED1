@@ -1,2 +1,2 @@
 # ED1
-Exercicios da materia de Estrutura de dados 1
+Exercicios e trabalhos da materia de Estrutura de Dados 1 2023/2.
